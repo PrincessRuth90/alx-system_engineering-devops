@@ -1,1 +1,1 @@
-A script that display the contents
+There is no place like home
