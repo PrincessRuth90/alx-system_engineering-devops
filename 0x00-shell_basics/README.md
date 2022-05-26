@@ -1,1 +1,1 @@
-There is no place like home
+A script that display current directory contents in a long format
