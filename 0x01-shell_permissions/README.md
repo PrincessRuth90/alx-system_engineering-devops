@@ -1,1 +1,1 @@
- A script that adds execute permission to all subdirectories
+A script that creates a directory
