@@ -1,1 +1,1 @@
-Delete the file betty
+A script that lists all files
