@@ -1,1 +1,1 @@
-A command that lists all the files
+To create a magic file
