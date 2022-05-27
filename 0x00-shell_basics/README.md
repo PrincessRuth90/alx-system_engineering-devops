@@ -1,1 +1,1 @@
-A script that create symbolic link
+To create a symbolic link
