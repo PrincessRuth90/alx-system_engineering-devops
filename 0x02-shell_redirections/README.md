@@ -1,1 +1,1 @@
-A command that finds all empty files
+A script that lists all file with gif extentions
