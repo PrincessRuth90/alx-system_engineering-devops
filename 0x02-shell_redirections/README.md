@@ -1,1 +1,1 @@
-My first readme
+A script that prints Hello, worlds
