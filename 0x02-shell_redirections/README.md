@@ -1,1 +1,1 @@
-A script that prints Hello, worlds
+A script that prints the word Hello world
