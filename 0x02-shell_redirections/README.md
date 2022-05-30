@@ -1,1 +1,1 @@
-A script that displays lines containing pattern
+A script that displsy the number of lines that conyain pattern
