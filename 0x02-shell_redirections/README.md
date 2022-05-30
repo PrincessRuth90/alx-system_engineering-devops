@@ -1,1 +1,1 @@
-A script that counts number of directories
+A script thst displays the ten newest files
