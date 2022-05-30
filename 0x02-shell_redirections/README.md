@@ -1,1 +1,1 @@
-A script that takes a list of words as input and prints
+A script that displays lines containing pattern
