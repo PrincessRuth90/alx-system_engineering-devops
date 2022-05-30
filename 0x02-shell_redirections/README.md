@@ -1,1 +1,1 @@
-A good file
+A script that writes into file
