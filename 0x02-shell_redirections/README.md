@@ -1,1 +1,1 @@
-A script that replace all characters
+A script that removes all letters
