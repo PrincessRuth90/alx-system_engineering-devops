@@ -1,1 +1,1 @@
-The path to success
+A script that counts the number of directories in a path
