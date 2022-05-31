@@ -1,1 +1,1 @@
-A script that prints the addition of 128
+A script that prints divided rule
