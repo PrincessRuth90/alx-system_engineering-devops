@@ -1,1 +1,1 @@
-A script that prints hello users
+The path to success
