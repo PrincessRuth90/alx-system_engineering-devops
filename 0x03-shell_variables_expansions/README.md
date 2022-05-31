@@ -1,1 +1,1 @@
-A script that prints binary to decimal
+A script that adds two numbers stored in the environment
