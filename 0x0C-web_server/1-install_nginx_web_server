@@ -8,6 +8,12 @@ sudo apt update
 sudo apt install nginx
 sudo chown -R $USER:$USER /var/www
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
+printf %s "server {
+     listen      80 default_server;
+     listen      [::]:80 default_server;
+     root        /etc/nginx/html;
+     index       index.html index.htm;
+}
 sudo service nginx start
 
 
