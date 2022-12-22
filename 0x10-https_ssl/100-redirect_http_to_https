@@ -33,21 +33,13 @@ defaults
 	errorfile 503 /etc/haproxy/errors/503.http
 	errorfile 504 /etc/haproxy/errors/504.http
 
-# start of parameters for ruthmarcuss.tech
-frontend ruthmarcuss.tech-http-frontend
-	bind	 *:80
-	option forwardfor
-	redirect scheme https code 301 if !{ ssl_fc }
-	default_backend	 nginx_webservers
-
-
-frontend  ruthmarcuss.tech-https-frontend
+listen	balancer
+	# frontend config settings
+	bind :80
 	bind *:443 ssl crt /etc/letsencrypt/live/www.ruthmarcuss.tech/fullchain.pem
-        default_backend nginx_webservers
+    http-request redirect scheme https code 301 unless { ssl_fc }
 
-
-backend nginx_webservers
-        balance roundrobin
-        server 61590-web-01 18.204.7.186:80 check
-        server 61590-web-02 3.83.245.14:80 check
-# end of parameters
+	# backend config settings
+	balance roundrobin
+	server 61590-web-01 18.204.7.186:80 check
+	server 61590-web-02 3.83.245.14:80 check
