@@ -9,10 +9,10 @@ server {
     index  index.html index.htm;
 
     # Use IP of server as domain name
-    server_name 104.196.168.90;
+    server_name 18.204.7.186;
 
     # Customize HTTP response header
-    add_header  X-Served-By 375-web-01;
+    add_header  X-Served-By 61590-web-01;
 
     # Serve /airbnb-onepage/ route from AirBnB_clone_v2
     location = /airbnb-onepage/ {
