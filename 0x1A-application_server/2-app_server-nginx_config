@@ -21,7 +21,7 @@ server {
 
     error_page 404 /404.html;
     location /404 {
-      ro /var/www/html;
+      root /var/www/html;
       internal;
     }
 }
