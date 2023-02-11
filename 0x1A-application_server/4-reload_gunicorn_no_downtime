@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# Gracefully reloads Gunicorn
-kill -HUP `ps -C gunicorn fch -o pid | head
